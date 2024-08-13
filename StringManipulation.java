@@ -5,9 +5,6 @@ public class StringManipulation {
 		String str="java learning centre";
 		String str1="StringManipulation";
 		String str3="JAVA LEARNING CENTRE";
-		System.out.println("Using intern method()\t"+str.intern());
-		System.out.println("Using Length()\t"+str.length());
-		System.out.println("isEmpty Method"+str.isEmpty());
 		String str2=str.concat("JLC");
 		System.out.println("After Concatenation"+str2);
 		String LowerCase=str2.toLowerCase();
